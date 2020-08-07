@@ -2,13 +2,16 @@
 
 Chitfunds are collection of money from specific number of people in specific installments. At the end of each installment a random winner 
 is picked and transfered the money. This is run by a central authority can cause scams. Avoiding the central authority
-and using smart contract for storing the money and distributing will diminish the fraudulent activities and expense for the
+and using smart contract for storing the money and distributing will diminish the fraudulent activities and expenses for the
 central authority.
 
-User is allowed to create Chitfunds and participants can join up to a limit. Each participant can pay his installment and after all
-participants are paid, smart contract picks the winner and transfers the money. Then the next installment is started.
+## How the application work
 
-Smart contract is developed in solidity, compiled by solc and deployed to Rinkeby network using web3.js. NodeJs is used on the server, ReactJs on the front-end and NextJs is used for routing. 
+User is allowed to create Chitfunds and participants can join up to a defined limit. Each participant can pay his installment and after all
+participants are paid, smart contract picks the winner for the current installment and transfers the money to his wallet. After the transfer
+collection against the next installment is started.
+
+Smart contract is developed in solidity, compiled by solc and deployed to Rinkeby network using web3.js. NodeJs is used on the server, ReactJs on the front-end along with NextJs. 
 
 ## Dependencies
 
