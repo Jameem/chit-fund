@@ -15,7 +15,7 @@ Smart contract is developed in solidity, compiled by solc and deployed to Rinkeb
 
 ## Dependencies
 
-Install these prerequisites to follow along
+Install these prerequisites to follow along,
 
 - NPM: https://nodejs.org
 - Metamask: https://metamask.io/
